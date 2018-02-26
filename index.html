@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>transition</title>
+    <style  >
+      div.index {
+          columns: 18em;
+          margin-bottom: 20px;
+      }
+      div.index ul {
+          margin-left: 0;
+          padding-left: 0;
+          list-style-type: none;
+      }
+      
+      </style> 
+</head>
+<body>
+      <div class="grid">
+            <div class="col">
+              <div class="cell">
+                <div class="t t1" data-content='t1'>   transition: margin-right 4s;</div>
+              </div>
+              <div class="cell">
+                <div class="t t2" data-content='t2'>   transition: margin-right 4s 1s;</div>
+              </div>
+              <div class="cell">
+                <div class="t t3" data-content='t3'>   transition: margin-right 4s ease-in-out;</div>
+              </div>
+              <div class="cell">
+                <div class="t t4" data-content='t4'>   transition: margin-right 4s ease-in-out 1s;</div>
+              </div>
+              <div class="cell">
+                <div class="t t5" data-content='t5'>   transition: margin-right 4s, color 1s;</div>
+              </div>
+              <div class="cell">
+                <div class="t t6" data-content='t6'>   transition: margin-right 4s ease-out 10s, color 1s  ease-in-out 5s;</div>
+              </div>
+
+              <div class="cell">
+                <div class="t t7" data-content='t7'>   transition: all 0.5s ease-out;</div>
+              </div>
+
+            </div>
+          </div>
+          <div class="box" id='box'></div>
+</body>
+<script src="./index.js"></script>
+</html>
