@@ -15,12 +15,7 @@
 > 2) css的伪类实现过度属性的变化
 
 ### 子属性
-- [transition](#transition)
-- [是什么](#%E6%98%AF%E4%BB%80%E4%B9%88)
-- [如何用](#%E5%A6%82%E4%BD%95%E7%94%A8)
-        - [触发时机](#%E8%A7%A6%E5%8F%91%E6%97%B6%E6%9C%BA)
-        - [子属性](#%E5%AD%90%E5%B1%9E%E6%80%A7)
-- [动机与目标](#%E5%8A%A8%E6%9C%BA%E4%B8%8E%E7%9B%AE%E6%A0%87)
+1. transition-delay : 开始作用之前需要等待的时间。
     transition-delay |描述
     ---|---
     作用范围        | 所有element和伪元素
