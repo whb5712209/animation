@@ -32,7 +32,7 @@
     继承属性        | 否      ****
 
 2. transition-duration :属性规定完成过渡效果需要花费的时间（以秒或毫秒计）<br>     
-    transition-duration |描述
+    transition-duration |描述  
     ------------ | -------------
     作用范围        | 同上
     值              | ms \| s 
@@ -63,9 +63,12 @@
 
 # 动机与目标 
  
+ 测试table
 
-
-
+ First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 
 
